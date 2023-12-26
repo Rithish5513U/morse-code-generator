@@ -24,7 +24,7 @@ This project provides a basic Morse code generator written in Python. It allows 
 The program uses the standard Morse code representation for letters A-Z and numbers 0-9. Spaces between words are represented by '/'. 
 
 ```python
-MORSE_CODE_DICT = {
+morse_dict = {
     'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
     'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
     'M': '--', 'N': '-.', 'O': '---', 'P': '.--.', 'Q': '--.-', 'R': '.-.',
